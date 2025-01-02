@@ -1,0 +1,36 @@
+/* Change the pagination bullets color */
+.swiper-pagination-bullet {
+    background-color: #fff; /* Example: Orange */
+    opacity: 0.6; /* Optional: Slight transparency */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #0F1B4C; /* Example: Bright orange */
+    opacity: 1; /* Fully opaque for active bullet */
+  }
+  
+  /* Change the navigation button colors */
+  .swiper-button-next,
+  .swiper-button-prev {
+    color: #0F1B4C; /* Example: Green */
+  }
+  
+  .swiper-button-next:hover,
+  .swiper-button-prev:hover {
+    color: #1d379e; /* Darker green on hover */
+  }
+
+  /* Adjust spacing for navigation buttons */
+.swiper-button-next {
+    right: 0px; /* Distance from the right edge */
+  }
+  
+  .swiper-button-prev {
+    left: 0px; /* Distance from the left edge */
+  }
+  
+  /* Optional: Adjust vertical alignment */
+  .swiper-button-next, .swiper-button-prev {
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%);
+  }
